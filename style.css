@@ -1,7 +1,11 @@
-nav ul li {
-    display: inline;
-    float:none;
+.stream {
+    font-size: 40px;
 }
-nav ul li a {
-    display: inline-block;
+.s3 p {
+    font-family: "Merriweather";
+    font-size: 36px;
+}
+.s9 p {
+    font-family: "Monsterrat";
+    font-size: 20px;
 }
