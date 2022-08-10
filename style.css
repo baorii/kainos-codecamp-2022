@@ -1,5 +1,5 @@
-.stream {
-    font-size: 40px;
+#stream {
+    font-size: 40px !important;
 }
 .s3 p {
     font-family: "Merriweather";
