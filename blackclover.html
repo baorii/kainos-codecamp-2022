@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Google icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link rel="stylesheet" type="text/css" href ="styles.css">
+     
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1min.js"></script>
+
+    <script src="actions.js"></script>
+
+    <title>AniNews</title>
+</head>
+
+<body class="black">  
+    <!--Navbar-->
+<nav class="nav-wraper purple lighten-3 " style="padding-top: 0px; padding-bottom: 10px;">
+    <div>
+        <ul class="left">
+            <li><i class="medium material-icons">gps_fixed</i></li>
+            <li><h5>AniNews</h5></li>
+        </ul>
+
+        <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="#!">Home</a></li>
+            <li><a href="https://www.shopkazuko.com/" target="_blank">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+</nav>
+
+    <!--Page Layout-->
+
+        <div  class="row card-panel grey darken-4">
+
+            <div class="col l9 m9 s9">
+                <div class="video-container z-depth-2" style="border-radius: 10px;">
+                    <iframe width="427" height="240" src="https://www.youtube.com/embed/bEiQ-sMBwfQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h3 style="color:#E0EFDA">Asta returns to Shonen Jump!</h3>
+                <p style="color:#E0EFDA">After a long hiatus, Black Clover finally returns. The story arc wee left on was beautifully done and fans were itching for more. Well wait no longer as your favourite manga is returning.</p>
+                    <p style="color:#E0EFDA">This is an amazing trailer video from <a href="https://www.youtube.com/c/AniTVco">AniTV</a> displays new visuals for the Black Clover movie. Go show them some support!</p>
+                    <p style="color:#E0EFDA">Join Asta, Yuno and everyone else as they embark on their new journey against the devils and explore the realities of their world. Read now on <a href="https://www.viz.com/shonenjump">Shonen Jump</a></p>
+
+                
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Terms and Conditions</a>
+
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                        <h4>Terms and Conditions</h4>
+                        <p>All rights to images and videos are owned by the credited owner. If you believe a source has been wrongly credited then go to our contact page. Linked streaming services are not owned by us, when you click on the link we are not responsible for any bad things; We leave you in their care. :)</p>
+                        </div>
+                        <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn">Agree</a>
+                        </div>
+                    </div>
+                    
+            </div>  
+
+            <div class="col l3 m9 s9">
+                <a href="index.html">
+                <div class="card-panel purple lighten-3 z-depth-2" style="border-radius: 10px;">
+                    <img src="images/aot.jpg" class="responsive-img" style="border-radius: 10px;">
+                    <blockquote style="font-weight: bold; color: black;">Attack on Titan was Real?</blockquote>
+                </div></a>
+                <a href="chainsaw.html">
+                <div class="card-panel purple lighten-3 z-depth-2" style="border-radius: 10px;">
+                    <img src="images/chain.jfif" class="responsive-img" style="border-radius: 10px;">
+                    <blockquote style="font-weight: bold; color: black;">Chainsaw Man anime releasing this October!</blockquote>
+                </div></a>
+
+                <div>
+                    <a onclick="M.toast({html: 'Please Help me'})" class="btn">Surprise Button</a>
+                    <img src="images/shinji.gif" class="resposive-img" style="border-radius:10px" height="auto" width="350px">
+                </div>
+            </div>
+            
+        </div>
+            
+    </div>
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <h5 style="color:#E0EFDA">Streaming Services</h5> <br>
+            
+
+          <div class="row">
+            <div class="col l4 s12">
+                <div class="row">
+                    <a href="https://crunchyroll.com/">
+                        <div class="col push-s1">
+                            <img height="100" width="100" src="images/crunchy.png" class=" circle responsive-img z-depth-2">
+                        </div>
+                        <div class="col push-s1">
+                            <p class="stream" style="color:#ee6e73">Crunchyroll</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col l4 s12">
+                <div class="row">
+                    <a href="https://www.hidive.com/">
+                        <div class="col push-s1">
+                            <img height="100" width="100" src="images/hidive.png" class=" circle responsive-img z-depth-2">
+                        </div>
+                        <div class="col push-s1">
+                            <p class="stream" style="color: #ee6e73">HiDive</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col l4 s12">
+                <div class="row">
+                    <a href="https://9anime.id/">
+                        <div class="col push-s1">
+                            <img height="100" width="100" src="images/9.jfif" class="circle responsive-img z-depth-2">
+                        </div>
+                        <div class="col push-s1">
+                            <p id="stream" style="color: #ee6e73">9Anime</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright purple lighten-3">
+          <div class="container">
+          <p class="black-text center-align">Copyright 2022 © John Guibao</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Compiled and minified JavaScript -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+      <script>
+        M.toast({html: 'Please Help me.'})
+
+        $( document ).ready(function() {
+            $('.modal').modal();
+            $('#modal1').on('click', function() {
+            });
+        });
+            
+
+
+      </script>
+</body>
+</html>
