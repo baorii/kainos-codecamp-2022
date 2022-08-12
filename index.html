@@ -50,7 +50,23 @@
                 <p style="color:#E0EFDA">This shocking footage from Youtube showcases the traumatising, historical events of the Fall of Shiganshina. Titans roam the streets, our videographer is hiding in their home, death looms close. Outside their window all that can be seen are the human eating monsters eating the Shiganshina community. 3D maneouver() gear personnel are dispatched but all hope seems lost, not even they can save Shiganshina from the titan invasion.</p>
                 <p style="color:#E0EFDA">This is an amazing 3D animated video from <a href="https://www.youtube.com/c/poogusubi">Poogusubi</a> that truly displays the horror of facing the titans in real life. Go show them some support!</p>
                 <p style="color:#E0EFDA">Join Eren, Mikasa and Armin as they embark on their journey against the titans and explore the realities of their world. Watch Season 1 and more right now on the streaming services below!</p>
-            </div>
+
+                
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Terms and Conditions</a>
+
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                        <h4>Terms and Conditions</h4>
+                        <p>All rights to images and videos are owned by the credited owner. If you believe a source has been wrongly credited then go to our contact page. Linked streaming services are not owned by us, when you click on the link we are not responsible for any bad things; We leave you in their care. :)</p>
+                        </div>
+                        <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn">Agree</a>
+                        </div>
+                    </div>
+                    
+            </div>  
 
             <div class="col l3 m9 s9">
                 <div class="card-panel purple lighten-3 z-depth-2" style="border-radius: 10px;">
@@ -63,6 +79,7 @@
                 </div>
 
                 <div>
+                    <a onclick="M.toast({html: 'Please Help me'})" class="btn">Surprise Button</a>
                     <img src="images/shinji.gif" class="resposive-img" style="border-radius:10px" height="auto" width="350px">
                 </div>
             </div>
@@ -73,6 +90,8 @@
     <footer class="page-footer grey darken-4">
         <div class="container">
             <h5 style="color:#E0EFDA">Streaming Services</h5> <br>
+            
+
           <div class="row">
             <div class="col l4 s12">
                 <div class="row">
@@ -118,5 +137,22 @@
           </div>
         </div>
       </footer>
+
+      <!-- Compiled and minified JavaScript -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+      <script>
+        M.toast({html: 'Please Help me.'})
+
+        $( document ).ready(function() {
+            $('.modal').modal();
+            $('#modal1').on('click', function() {
+            });
+        });
+            
+
+
+      </script>
 </body>
 </html>
