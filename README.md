@@ -5,3 +5,7 @@ I will be using:
 - CSS
 - Javascript
 - Materialize
+
+Could not figure out how to use external css or javascript file with materialize
+Primarily used materialize and some inline css and javascript
+My website made it into the finals (didn't win)
