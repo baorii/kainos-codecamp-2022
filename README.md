@@ -6,6 +6,6 @@ I will be using:
 - Javascript
 - Materialize
 
-Could not figure out how to use external css or javascript file with materialize
-Primarily used materialize and some inline css and javascript
-My website made it into the finals (didn't win)
+Could not figure out how to use external css or javascript file with materialize.
+Primarily used materialize and some inline css and javascript.
+My website made it into the finals (didn't win) and placed in the top 10.
